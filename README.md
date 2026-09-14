@@ -33,18 +33,4 @@ Arduino UNO R4 기반 화재 감지 시스템. 조도·불꽃 센서로 화재�
 
 ---
 
-### 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=GiS0ng&show_icons=true&theme=default&hide_border=true" />
-</p>
-
----
-
-<!--
-  아래는 원하면 채워 넣을 수 있는 연락처 섹션입니다. 필요 없으면 지워도 됩니다.
-
-  ### 📫 Contact
-  - Email: your-email@example.com
-  - Blog: https://your-blog.example.com
--->
