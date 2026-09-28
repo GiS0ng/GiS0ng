@@ -1,36 +1,23 @@
-<h1 align="center">Hi, I'm Giseong 👋</h1>
+## 안녕하세요, GiS0ng입니다 👋
 
-<p align="center">
-  제조 현장의 센서 데이터와 자동화에 관심이 많은 개발자입니다.<br/>
-  하드웨어(Arduino/C++)로 데이터를 수집하고, Python/Streamlit으로 시각화하고, 자동화로 반복 작업을 줄이는 걸 좋아합니다.
-</p>
+제조 현장에서 품질·설비 데이터를 다뤄 왔고, 지금은 반복되는 수집·정리·보고 작업을 자동 파이프라인으로 바꾸는 도구를 만듭니다.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white" />
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
-  <img src="https://img.shields.io/badge/Notion_API-000000?style=flat-square&logo=notion&logoColor=white" />
-</p>
+- 🏭 삼성SDI, 포스코퓨처엠 협력사, 금속 가공 공장에서 약 5년간 제조 현장 경력
+- 📚 AI 스마트제조 융합 과정 수강 중
+- 🤖 Claude로 코드를 작성하고, Codex와 테스트로 검증하며 개발합니다
 
----
+### 프로젝트
 
-### 🔧 Featured Projects
+| 프로젝트 | 설명 | 기술 |
+| --- | --- | --- |
+| [saramin-notion-extractor](https://github.com/GiS0ng/saramin-notion-extractor) | 사람인 채용공고를 수집·OCR·정리해 Notion에 자동 저장하는 Chrome 확장. 2주간 공고 1,004건 수집 | JavaScript, Tesseract.js, Notion API, Vitest |
+| [arduino-environment-fire-monitor](https://github.com/GiS0ng/arduino-environment-fire-monitor) | 조도·불꽃 센서를 함께 판단하는 화재 모니터. 시리얼 수집, SQLite 저장, Streamlit 대시보드 | Arduino, Python, SQLite, Streamlit |
+| [Toy-Project-factory-fault](https://github.com/GiS0ng/Toy-Project-factory-fault) | 센서 3개의 진동을 ISO Zone으로 판정하는 C++ 엣지와 Python 브리지 | C++17, CMake, Python, GitHub Actions |
+| [ramen-mes-streamlit](https://github.com/GiS0ng/ramen-mes-streamlit) | 구매부터 출하까지 LOT를 추적하는 라면 제조 MES 데모 | Python, Streamlit, SQLite |
 
-**[Toy-Project-factory-fault](https://github.com/GiS0ng/Toy-Project-factory-fault)** · `C++` `Python`
-스마트팩토리 설비 진동 모니터링 시스템. 3채널 진동센서에서 속도 RMS를 수집해 ISO Zone A–D 기준으로 판정하고, Python 브릿지가 Notion·알림 시스템으로 이벤트를 라우팅합니다. 네트워크가 끊겨도 로컬 수집은 계속되도록 설계했습니다.
+### 일하는 방식
 
-**[ramen-mes-streamlit](https://github.com/GiS0ng/ramen-mes-streamlit)** · `Python` `Streamlit` `SQLite`
-라면 생산 공정을 가정한 MES(제조실행시스템) 데모. 원자재 입고부터 출하까지 생산 현황, 설비 수율/불량 코드 분석, 원자재 안전재고 알림, 원료~완제품~박스~고객 단위의 전체 이력 추적 기능을 갖췄습니다.
-
-**[arduino-environment-fire-monitor](https://github.com/GiS0ng/arduino-environment-fire-monitor)** · `Arduino` `Python` `Streamlit`
-Arduino UNO R4 기반 화재 감지 시스템. 조도·불꽃 센서로 화재를 단계별(정상→경고→화재확정)로 판정하고, 온습도(DHT11)는 OLED에 표시하며, USB 시리얼로 PC에 전송된 데이터는 SQLite에 저장되어 Streamlit 대시보드로 실시간·이력 조회가 가능합니다.
-
-**[saramin-notion-extractor](https://github.com/GiS0ng/saramin-notion-extractor)** · `JavaScript` `Chrome Extension`
-사람인 채용 공고를 Notion으로 자동 수집하는 크롬 확장 프로그램. 텍스트·연속·이미지형 공고를 하나의 구조로 통합하고(이미지형은 Tesseract.js OCR 사용), 여러 검색 URL을 순차 수집해 Notion 데이터베이스에 중복 없이 업서트합니다.
-
----
-
+- 직접 쓰면서 불편한 문제를 찾고, 끝까지 만들어서 굴려 봅니다.
+- 장애가 나도 멈추지 않게 만듭니다. 재시도, 재개, 입력 검증을 먼저 챙깁니다.
+- 한계는 README에 그대로 적습니다.
 
